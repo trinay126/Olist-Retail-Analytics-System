@@ -34,3 +34,7 @@ SELECT *,
     END AS customer_segment
 FROM  rfm_scored
 ORDER BY rfm_total DESC;
+
+
+
+
