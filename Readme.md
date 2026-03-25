@@ -1,54 +1,26 @@
 <div align="center">
 
-
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Olist\_logo.png/320px-Olist\_logo.png" alt="Olist" width="260"/>
-
-
+<img src="https://cdn.brandfetch.io/idvSn4Org5/w/1200/h/1200/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1772609048645" alt="Olist" width="150"/>
 
 <br/>
 
+# 🛒 Retail Supply Chain Analytics Platform
 
-
-\# 🛒 Retail Supply Chain Analytics Platform
-
-
-
-\### End-to-End Data Engineering \& Business Intelligence on 100K+ Real E-Commerce Orders
-
-
+### End-to-End Data Engineering & Business Intelligence on 100K+ Real E-Commerce Orders
 
 <br/>
 
-
-
-\[!\[SQL Server](https://img.shields.io/badge/SQL%20Server-2017+-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)](https://www.microsoft.com/sql-server)
-
-\[!\[Power BI](https://img.shields.io/badge/Power%20BI-Star%20Schema-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)](https://powerbi.microsoft.com)
-
-\[!\[Excel](https://img.shields.io/badge/Excel-Power%20Query-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)](https://microsoft.com/excel)
-
-\[!\[Architecture](https://img.shields.io/badge/Architecture-Medallion-2E86AB?style=for-the-badge)](https://databricks.com/glossary/medallion-architecture)
-
-\[!\[Dataset](https://img.shields.io/badge/Dataset-Olist%20Kaggle-20BEFF?style=for-the-badge\&logo=kaggle\&logoColor=white)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
-
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-2017+-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Star%20Schema-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
+[![Excel](https://img.shields.io/badge/Excel-Power%20Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://microsoft.com/excel)
+[![Architecture](https://img.shields.io/badge/Architecture-Medallion-2E86AB?style=for-the-badge)](https://databricks.com/glossary/medallion-architecture)
+[![Dataset](https://img.shields.io/badge/Dataset-Olist%20Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 <br/>
 
-
-
-> \*\*Built a production-grade data warehouse from scratch\*\* — raw CSV ingestion through a 3-layer Medallion pipeline to an executive Power BI dashboard — using the same architectural patterns deployed at scale by modern data teams worldwide.
-
-
+> **Built a production-grade data warehouse from scratch** — raw CSV ingestion through a 3-layer Medallion pipeline to an executive Power BI dashboard — using the same architectural patterns deployed at scale by modern data teams worldwide.
 
 </div>
-
-
-
-\---
-
-
 
 \## 📌 What This Project Is
 
@@ -192,7 +164,7 @@ Every design decision — from grain selection to fan-out prevention to dynamic 
 
 ```
 
-!\[Data Architecture](diagrams/architecture.png)
+![Data Architecture](diagrams/architecture.png)
 
 
 
@@ -550,13 +522,13 @@ The \*\*What-If Data Table\*\* in Sheet 2 shows Monthly Net Revenue at every com
 
 \*\*Star schema model\*\* — 4 fact tables + 4 dimension tables. No view. All transformation done in SQL; Power BI is purely for presentation.
 
-&#x20;!\[Data MOdel](diagrams/erd\_diagram.png)
+&#x20;![Data Model](diagrams/erd\_diagram.png)
 
 
 
 \### Page 1 — Executive Summary
 
-!\[Executive Summary Dashboard](diagrams/dashboard\_1.png)
+![Executive Summary Dashboard](diagrams/dashboard\_1.png)
 
 > \*"How is the business performing overall?"\*
 
@@ -568,7 +540,7 @@ KPI cards (Revenue · Orders · On-Time % · Avg Review · Revenue at Risk) · M
 
 \### Page 2 — Supply Chain Monitor
 
-!\[Supply Chain Monitor Dashboard](diagrams/dashboard\_2.png)
+![Supply Chain Monitor Dashboard](diagrams/dashboard\_2.png)
 
 > \*"Where are the delivery problems and who is causing them?"\*
 
@@ -580,7 +552,7 @@ Seller Reliability gauge · Avg Delay by Category · \*\*Geographic bubble map\*
 
 \### Page 3 — Revenue Leakage
 
-!\[Revenue Leakage Dashboard](diagrams/dashboard\_3.png)
+![Revenue Leakage Dashboard](diagrams/dashboard\_3.png)
 
 > \*"How much money are we losing and why?"\*
 
